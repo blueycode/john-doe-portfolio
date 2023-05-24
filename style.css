@@ -20,6 +20,8 @@ body {
             #f9d3b5 100%
         );
     background-repeat: no-repeat;
+    /* A little hack to prevent scrollbards on animations */
+    overflow-x: hidden;
 }
 
 nav {

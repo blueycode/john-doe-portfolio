@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>John Doe - Senior Full-Stack Developer</title>
 </head>
@@ -23,7 +24,7 @@
 
     <main id="info">
         <div id="overview">
-            <div id="dev-overview">
+            <div data-aos="fade-right" id="dev-overview">
                 <h2>
                     John Doe<br/>
                     Senior Full-Stack Developer
@@ -41,7 +42,7 @@
                 </span>
             </div>
 
-            <div id="dev-image">
+            <div data-aos="fade-left" id="dev-image">
                 <img
                     src="images/john-doe.png"
                     alt="John Doe"
@@ -51,7 +52,7 @@
     </main>
 
     <section id="details">
-        <div>
+        <div data-aos="fade-in">
             <h3>PROFICIENCY</h3>
 
             <div>
@@ -67,7 +68,7 @@
         </div>
 
         <div id="cards">
-            <div>
+            <div data-aos="fade-in">
                 <span>
                     <img
                         src="images/w3c.png"
@@ -79,7 +80,7 @@
                     Validates a web developer's skills in HTML, CSS and JS.
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-in">
                 <span>
                     <img
                         src="images/azure.png"
@@ -91,7 +92,7 @@
                     Cloud-based applications using Azure technologies.
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-in">
                 <span>
                     <img
                         src="images/oracle.png"
@@ -105,5 +106,12 @@
             </div>
         </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900
+        });
+    </script>
 </body>
 </html>
