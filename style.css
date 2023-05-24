@@ -169,3 +169,94 @@ nav {
 .btn:hover {
     filter: brightness(1.1);
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        padding: 1.2rem 0;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #left-handle span {
+        font-size: 1.3rem;
+    }
+
+    #nav-links a {
+        font-size: 0.9rem;
+    }
+
+    #info {
+        height: auto;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    #overview {
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+    }
+
+    #dev-overview {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    #dev-overview h2 {
+        font-size: 1.7rem;
+    }
+
+    #dev-image img {
+        height: 18rem;
+    }
+
+    #details {
+        height: auto;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        gap: 3rem;
+    }
+
+    #details > div:nth-child(1) {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #details > div:nth-child(1) > div {
+        font-size: 1rem;
+    }
+
+    #details h3 {
+        font-size: 1.4rem;
+    }
+
+    #cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #cards > div {
+        width: 100%;
+    }
+
+    #cards > div > span {
+        justify-content: center;
+    }
+
+    #cards h4 {
+        font-size: 1.3rem;
+    }
+
+    #cards > div > div {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .btn {
+        height: 2.5rem;
+        width: 50%;
+        font-size: 1.2rem;
+    }
+}
